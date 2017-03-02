@@ -1,0 +1,292 @@
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Alien Swarm\swarm\materials
+Loading C:\Program Files (x86)\Steam\steamapps\common\Alien Swarm\sdk_content\mapsrc\ASI-Jac1-LandingBay_01.vmf
+Patching WVT material: maps/asi-jac1-landingbay_01/swarm/bsp/blendswarm_snow_wvt_patch
+Patching WVT material: maps/asi-jac1-landingbay_01/metal/blendmetalmetal001a_wvt_patch
+Patching WVT material: maps/asi-jac1-landingbay_01/concrete/blendconcsnow001a_wvt_patch
+Patching WVT material: maps/asi-jac1-landingbay_01/metal/blendmetalsnow002a_wvt_patch
+fixing up env_cubemap materials on brush sides...
+env_cubemap pointing at deleted brushside near (-5032, -8997, 953)
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 1064 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Program Files (x86)\Steam\steamapps\common\Alien Swarm\sdk_content\mapsrc\ASI-Jac1-LandingBay_01.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (1) (539378 bytes)
+Error loading studio model ""!
+Error! prop_static using model "models/props/floor/grate02/grate02_64.mdl", which must be used on a dynamic entity (i.e. prop_physics). Deleted.
+Error loading studio model "models/props/floor/grate02/grate02_64.mdl"!
+Error loading studio model "models/props/machinery/crane/hook.mdl"!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 5828 texinfos to 2134
+Reduced 560 texdatas to 444 (34821 bytes to 28526)
+Writing C:\Program Files (x86)\Steam\steamapps\common\Alien Swarm\sdk_content\mapsrc\ASI-Jac1-LandingBay_01.bsp
+4 seconds elapsed
+
+
+
+4 threads
+reading c:\program files (x86)\steam\steamapps\common\alien swarm\sdk_content\mapsrc\ASI-Jac1-LandingBay_01.bsp
+reading c:\program files (x86)\steam\steamapps\common\alien swarm\sdk_content\mapsrc\ASI-Jac1-LandingBay_01.prt
+ 176 portalclusters
+ 322 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 11604
+Average clusters visible: 65
+Building PAS...
+Average clusters audible: 127
+visdatasize:7549  compressed from 8448
+writing c:\program files (x86)\steam\steamapps\common\alien swarm\sdk_content\mapsrc\ASI-Jac1-LandingBay_01.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\common\alien swarm\sdk_content\mapsrc\ASI-Jac1-LandingBay_01.bsp
+Loaded alpha texture materials\metal\metalgrate013a.vtf
+5742 faces
+6946602 square feet [1000310656.00 square inches]
+44 Displacements
+257317 Square Feet [37053708.00 Square Inches]
+5742 patches before subdivision
+195342 patches after subdivision
+124 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 8711441, max 407
+transfer lists:  66.5 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(27045, 29358, 26797)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(3076, 3153, 3022)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(450, 413, 456)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(89, 74, 103)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(21, 14, 23)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(6, 4, 7)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(2, 1, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(0, 0, 1)
+Build Patch/Sample Hash Table(s).....Done<0.0933 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+4 of 16 (25% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Computing static prop lighting : 00...1...2...3...4...5...6...7...8...9...10
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  72/1024         3456/49152    ( 7.0%) 
+brushes               1314/8192        15768/98304    (16.0%) 
+brushsides            8626/65536       69008/524288   (13.2%) 
+planes                4994/65536       99880/1310720  ( 7.6%) 
+vertexes             10088/65536      121056/786432   (15.4%) 
+nodes                 1029/65536       32928/2097152  ( 1.6%) 
+texinfos              2134/12288      153648/884736   (17.4%) 
+texdata                444/2048        14208/65536    (21.7%) 
+dispinfos               44/0            7744/0        ( 0.0%) 
+disp_verts            2164/0           43280/0        ( 0.0%) 
+disp_tris             3232/0            6464/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples      469964/0          469964/0        ( 0.0%) 
+faces                 5742/65536      321552/3670016  ( 8.8%) 
+hdr faces             5742/65536      321552/3670016  ( 8.8%) 
+origfaces             3327/65536      186312/3670016  ( 5.1%) 
+leaves                1102/65536       35264/2097152  ( 1.7%) 
+leaffaces             6402/65536       12804/131072   ( 9.8%) 
+leafbrushes           2333/65536        4666/131072   ( 3.6%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges            40120/512000     160480/2048000  ( 7.8%) 
+edges                24448/256000      97792/1024000  ( 9.6%) 
+LDR worldlights          0/8192            0/819200   ( 0.0%) 
+HDR worldlights        124/8192        12400/819200   ( 1.5%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            521/32768        5210/327680   ( 1.6%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices         10014/65536       20028/131072   (15.3%) 
+cubemapsamples          72/1024         1152/16384    ( 7.0%) 
+overlays               259/512         91168/180224   (50.6%) 
+LDR lightdata         [variable]           0/0        ( 0.0%) 
+HDR lightdata         [variable]    19958748/0        ( 0.0%) 
+visdata               [variable]        7549/16777216 ( 0.0%) 
+entdata               [variable]      412635/393216   (104.9%) VERY FULL!
+LDR ambient table     1102/65536        4408/262144   ( 1.7%) 
+HDR ambient table     1102/65536        4408/262144   ( 1.7%) 
+LDR leaf ambient      1102/65536       30856/1835008  ( 1.7%) 
+HDR leaf ambient      3622/65536      101416/1835008  ( 5.5%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+Prop Hull Verts          0/0               0/0        ( 0.0%) 
+Prop Hull Blob           0/0               0/0        ( 0.0%) 
+Prop Hull Lists          0/0               0/0        ( 0.0%) 
+Prop Hulls               0/0               0/0        ( 0.0%) 
+Prop Hull trilist        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/242556   ( 0.0%) 
+pakfile               [variable]    21947001/0        ( 0.0%) 
+physics               [variable]      539378/4194304  (12.9%) 
+physics terrain       [variable]        4308/1048576  ( 0.4%) 
+
+Level flags = 2
+
+Total triangle count: 15151
+Writing c:\program files (x86)\steam\steamapps\common\alien swarm\sdk_content\mapsrc\ASI-Jac1-LandingBay_01.bsp
+10 minutes, 55 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Alien Swarm\swarm\materials
+Loading C:\Program Files (x86)\Steam\steamapps\common\Alien Swarm\sdk_content\mapsrc\ASI-Jac1-LandingBay_01.vmf
+Patching WVT material: maps/asi-jac1-landingbay_01/swarm/bsp/blendswarm_snow_wvt_patch
+Patching WVT material: maps/asi-jac1-landingbay_01/metal/blendmetalmetal001a_wvt_patch
+Patching WVT material: maps/asi-jac1-landingbay_01/concrete/blendconcsnow001a_wvt_patch
+Patching WVT material: maps/asi-jac1-landingbay_01/metal/blendmetalsnow002a_wvt_patch
+fixing up env_cubemap materials on brush sides...
+env_cubemap pointing at deleted brushside near (-5032, -8997, 953)
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 1064 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Program Files (x86)\Steam\steamapps\common\Alien Swarm\sdk_content\mapsrc\ASI-Jac1-LandingBay_01.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (1) (539378 bytes)
+Error loading studio model ""!
+Error! prop_static using model "models/props/floor/grate02/grate02_64.mdl", which must be used on a dynamic entity (i.e. prop_physics). Deleted.
+Error loading studio model "models/props/floor/grate02/grate02_64.mdl"!
+Error loading studio model "models/props/machinery/crane/hook.mdl"!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 5828 texinfos to 2134
+Reduced 560 texdatas to 444 (34821 bytes to 28526)
+Writing C:\Program Files (x86)\Steam\steamapps\common\Alien Swarm\sdk_content\mapsrc\ASI-Jac1-LandingBay_01.bsp
+4 seconds elapsed
+
+
+
+4 threads
+reading c:\program files (x86)\steam\steamapps\common\alien swarm\sdk_content\mapsrc\ASI-Jac1-LandingBay_01.bsp
+reading c:\program files (x86)\steam\steamapps\common\alien swarm\sdk_content\mapsrc\ASI-Jac1-LandingBay_01.prt
+ 176 portalclusters
+ 322 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 11604
+Average clusters visible: 65
+Building PAS...
+Average clusters audible: 127
+visdatasize:7549  compressed from 8448
+writing c:\program files (x86)\steam\steamapps\common\alien swarm\sdk_content\mapsrc\ASI-Jac1-LandingBay_01.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\common\alien swarm\sdk_content\mapsrc\ASI-Jac1-LandingBay_01.bsp
+Loaded alpha texture materials\metal\metalgrate013a.vtf
+5742 faces
+6946602 square feet [1000310656.00 square inches]
+44 Displacements
+257317 Square Feet [37053708.00 Square Inches]
+5742 patches before subdivision
+195342 patches after subdivision
+124 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 8711441, max 407
+transfer lists:  66.5 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(27045, 29358, 26797)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(3076, 3153, 3022)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(450, 413, 456)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(89, 74, 103)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(21, 14, 23)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(6, 4, 7)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(2, 1, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(0, 0, 1)
+Build Patch/Sample Hash Table(s).....Done<0.1007 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+4 of 16 (25% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Computing static prop lighting : 00...1...2...3...4...5...6...7...8...9...10
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  72/1024         3456/49152    ( 7.0%) 
+brushes               1314/8192        15768/98304    (16.0%) 
+brushsides            8626/65536       69008/524288   (13.2%) 
+planes                4994/65536       99880/1310720  ( 7.6%) 
+vertexes             10088/65536      121056/786432   (15.4%) 
+nodes                 1029/65536       32928/2097152  ( 1.6%) 
+texinfos              2134/12288      153648/884736   (17.4%) 
+texdata                444/2048        14208/65536    (21.7%) 
+dispinfos               44/0            7744/0        ( 0.0%) 
+disp_verts            2164/0           43280/0        ( 0.0%) 
+disp_tris             3232/0            6464/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples      469964/0          469964/0        ( 0.0%) 
+faces                 5742/65536      321552/3670016  ( 8.8%) 
+hdr faces             5742/65536      321552/3670016  ( 8.8%) 
+origfaces             3327/65536      186312/3670016  ( 5.1%) 
+leaves                1102/65536       35264/2097152  ( 1.7%) 
+leaffaces             6402/65536       12804/131072   ( 9.8%) 
+leafbrushes           2333/65536        4666/131072   ( 3.6%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges            40120/512000     160480/2048000  ( 7.8%) 
+edges                24448/256000      97792/1024000  ( 9.6%) 
+LDR worldlights          0/8192            0/819200   ( 0.0%) 
+HDR worldlights        124/8192        12400/819200   ( 1.5%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            521/32768        5210/327680   ( 1.6%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices         10014/65536       20028/131072   (15.3%) 
+cubemapsamples          72/1024         1152/16384    ( 7.0%) 
+overlays               259/512         91168/180224   (50.6%) 
+LDR lightdata         [variable]           0/0        ( 0.0%) 
+HDR lightdata         [variable]    19958748/0        ( 0.0%) 
+visdata               [variable]        7549/16777216 ( 0.0%) 
+entdata               [variable]      412635/393216   (104.9%) VERY FULL!
+LDR ambient table     1102/65536        4408/262144   ( 1.7%) 
+HDR ambient table     1102/65536        4408/262144   ( 1.7%) 
+LDR leaf ambient      1102/65536       30856/1835008  ( 1.7%) 
+HDR leaf ambient      3622/65536      101416/1835008  ( 5.5%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+Prop Hull Verts          0/0               0/0        ( 0.0%) 
+Prop Hull Blob           0/0               0/0        ( 0.0%) 
+Prop Hull Lists          0/0               0/0        ( 0.0%) 
+Prop Hulls               0/0               0/0        ( 0.0%) 
+Prop Hull trilist        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/242556   ( 0.0%) 
+pakfile               [variable]    21947001/0        ( 0.0%) 
+physics               [variable]      539378/4194304  (12.9%) 
+physics terrain       [variable]        4308/1048576  ( 0.4%) 
+
+Level flags = 2
+
+Total triangle count: 15151
+Writing c:\program files (x86)\steam\steamapps\common\alien swarm\sdk_content\mapsrc\ASI-Jac1-LandingBay_01.bsp
+11 minutes, 0 seconds elapsed
