@@ -1,0 +1,252 @@
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Alien Swarm\swarm\materials
+Loading D:\alien-arena\mapsrc\maptest.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\alien-arena\mapsrc\maptest.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (15552 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 33 texinfos to 32
+Reduced 4 texdatas to 3 (123 bytes to 78)
+Writing D:\alien-arena\mapsrc\maptest.bsp
+0 seconds elapsed
+
+
+
+4 threads
+reading d:\alien-arena\mapsrc\maptest.bsp
+reading d:\alien-arena\mapsrc\maptest.prt
+ 100 portalclusters
+ 180 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 6060
+Average clusters visible: 60
+Building PAS...
+Average clusters audible: 99
+visdatasize:3460  compressed from 3200
+writing d:\alien-arena\mapsrc\maptest.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading d:\alien-arena\mapsrc\maptest.bsp
+2144 faces
+1840190 square feet [264987472.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+2144 patches before subdivision
+143608 patches after subdivision
+37 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 59006603, max 1144
+transfer lists: 450.2 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0842 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/1024           48/49152    ( 0.1%) 
+brushes                 31/8192          372/98304    ( 0.4%) 
+brushsides             226/65536        1808/524288   ( 0.3%) 
+planes                 226/65536        4520/1310720  ( 0.3%) 
+vertexes              2397/65536       28764/786432   ( 3.7%) 
+nodes                  367/65536       11744/2097152  ( 0.6%) 
+texinfos                32/12288        2304/884736   ( 0.3%) 
+texdata                  3/2048           96/65536    ( 0.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 2144/65536      120064/3670016  ( 3.3%) 
+hdr faces             2144/65536      120064/3670016  ( 3.3%) 
+origfaces              168/65536        9408/3670016  ( 0.3%) 
+leaves                 369/65536       11808/2097152  ( 0.6%) 
+leaffaces             2248/65536        4496/131072   ( 3.4%) 
+leafbrushes            280/65536         560/131072   ( 0.4%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges             9592/512000      38368/2048000  ( 1.9%) 
+edges                 4937/256000      19748/1024000  ( 1.9%) 
+LDR worldlights          0/8192            0/819200   ( 0.0%) 
+HDR worldlights         37/8192         3700/819200   ( 0.5%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             36/32768         360/327680   ( 0.1%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           444/65536         888/131072   ( 0.7%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]           0/0        ( 0.0%) 
+HDR lightdata         [variable]    11046108/0        ( 0.0%) 
+visdata               [variable]        3460/16777216 ( 0.0%) 
+entdata               [variable]       13612/393216   ( 3.5%) 
+LDR ambient table      369/65536        1476/262144   ( 0.6%) 
+HDR ambient table      369/65536        1476/262144   ( 0.6%) 
+LDR leaf ambient       369/65536       10332/1835008  ( 0.6%) 
+HDR leaf ambient       100/65536        2800/1835008  ( 0.2%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+Prop Hull Verts          0/0               0/0        ( 0.0%) 
+Prop Hull Blob           0/0               0/0        ( 0.0%) 
+Prop Hull Lists          0/0               0/0        ( 0.0%) 
+Prop Hulls               0/0               0/0        ( 0.0%) 
+Prop Hull trilist        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]      149084/0        ( 0.0%) 
+physics               [variable]       15552/4194304  ( 0.4%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 2
+
+Total triangle count: 4592
+Writing d:\alien-arena\mapsrc\maptest.bsp
+13 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\sourcemods\alienarena\materials
+Loading D:\alien-arena\mapsrc\maptest.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\alien-arena\mapsrc\maptest.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (15552 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 33 texinfos to 32
+Reduced 4 texdatas to 3 (123 bytes to 78)
+Writing D:\alien-arena\mapsrc\maptest.bsp
+0 seconds elapsed
+
+
+
+4 threads
+reading d:\alien-arena\mapsrc\maptest.bsp
+reading d:\alien-arena\mapsrc\maptest.prt
+ 100 portalclusters
+ 180 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 6060
+Average clusters visible: 60
+Building PAS...
+Average clusters audible: 99
+visdatasize:3460  compressed from 3200
+writing d:\alien-arena\mapsrc\maptest.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading d:\alien-arena\mapsrc\maptest.bsp
+2144 faces
+1840190 square feet [264987472.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+2144 patches before subdivision
+143608 patches after subdivision
+37 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 59006603, max 1144
+transfer lists: 450.2 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0874 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/1024           48/49152    ( 0.1%) 
+brushes                 31/8192          372/98304    ( 0.4%) 
+brushsides             226/65536        1808/524288   ( 0.3%) 
+planes                 226/65536        4520/1310720  ( 0.3%) 
+vertexes              2397/65536       28764/786432   ( 3.7%) 
+nodes                  367/65536       11744/2097152  ( 0.6%) 
+texinfos                32/12288        2304/884736   ( 0.3%) 
+texdata                  3/2048           96/65536    ( 0.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 2144/65536      120064/3670016  ( 3.3%) 
+hdr faces             2144/65536      120064/3670016  ( 3.3%) 
+origfaces              168/65536        9408/3670016  ( 0.3%) 
+leaves                 369/65536       11808/2097152  ( 0.6%) 
+leaffaces             2248/65536        4496/131072   ( 3.4%) 
+leafbrushes            280/65536         560/131072   ( 0.4%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges             9592/512000      38368/2048000  ( 1.9%) 
+edges                 4937/256000      19748/1024000  ( 1.9%) 
+LDR worldlights          0/8192            0/819200   ( 0.0%) 
+HDR worldlights         37/8192         3700/819200   ( 0.5%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             36/32768         360/327680   ( 0.1%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           444/65536         888/131072   ( 0.7%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]           0/0        ( 0.0%) 
+HDR lightdata         [variable]    11046108/0        ( 0.0%) 
+visdata               [variable]        3460/16777216 ( 0.0%) 
+entdata               [variable]       13612/393216   ( 3.5%) 
+LDR ambient table      369/65536        1476/262144   ( 0.6%) 
+HDR ambient table      369/65536        1476/262144   ( 0.6%) 
+LDR leaf ambient       369/65536       10332/1835008  ( 0.6%) 
+HDR leaf ambient       100/65536        2800/1835008  ( 0.2%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+Prop Hull Verts          0/0               0/0        ( 0.0%) 
+Prop Hull Blob           0/0               0/0        ( 0.0%) 
+Prop Hull Lists          0/0               0/0        ( 0.0%) 
+Prop Hulls               0/0               0/0        ( 0.0%) 
+Prop Hull trilist        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]      149084/0        ( 0.0%) 
+physics               [variable]       15552/4194304  ( 0.4%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 2
+
+Total triangle count: 4592
+Writing d:\alien-arena\mapsrc\maptest.bsp
+13 seconds elapsed
