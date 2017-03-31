@@ -196,3 +196,7 @@ FakesAssemblies/
 GeneratedArtifacts/
 _Pvt_Extensions/
 ModelManifest.xml
+
+# Prevent debug files from being cached.
+client/Debug_swarm/
+server/Debug_swarm/
